@@ -1,0 +1,9 @@
+PyPDF2
+sentence-transformers
+faiss-cpu
+torch
+scipy
+scikit-learn
+huggingface-hub
+transformers
+streamlit
