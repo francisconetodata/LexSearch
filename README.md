@@ -727,14 +727,5 @@ with tab2:
             st.session_state.messages.append({"role": "assistant", "content": response})
 ```
 
-## Considerações Finais
 
-Este sistema fornece uma base robusta para a construção de um modelo de consulta jurídica. Para aprimoramentos futuros, você pode considerar:
-
-- **Modelos de Linguagem Maiores:** Integrar com modelos de linguagem maiores (como GPT-3, BERT, etc.) para sumarização de texto ou geração de respostas mais coerentes, se houver acesso a APIs ou recursos computacionais.
-- **Segmentação de Documentos:** Para PDFs muito longos, pode ser útil segmentar o texto em chunks menores antes de gerar embeddings, para que a busca por similaridade seja mais granular e retorne trechos mais específicos.
-- **Tratamento de Erros Avançado:** Implementar um tratamento de erros mais sofisticado para diferentes tipos de problemas em PDFs (imagens, PDFs escaneados, etc.).
-- **Otimização de Performance:** Para volumes de dados extremamente grandes, explorar otimizações no FAISS ou outras bibliotecas de busca de vizinhos mais próximos.
-
-Espero que este código detalhado e aprimorado seja útil para o seu projeto!
 
